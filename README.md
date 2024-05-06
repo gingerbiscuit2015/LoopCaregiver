@@ -1,6 +1,5 @@
 #  Caregiver App
 
-
 ## Warning
 
 * Loop Remote code, such as this Caregiver app, are highly experimental and may be subject to issues that could cause serious risks to one's health/life.
@@ -12,9 +11,14 @@
 * The phone with Caregiver installed should have a locking mechanism. Anyone with access to the Caregiver app can remotely send treatments (bolus, carbs, etc). If a phone is lost or stolen, the QR code in Loop's Settings should be reset.
 * There may be other risks not known or mentioned here.
 
+## Minimum Required Versions
+
+* iOS 16
+* WatchOS 10
+
 ## Clone Repo
 
-* Xcode version 14 or greater required
+* Xcode version 15 or greater required
 * Run the following command to clone the repo to a new directory named "LoopCaregiver" (The directory will be created for you)
 ```
 git clone --branch=dev --recurse-submodules https://github.com/LoopKit/LoopCaregiver LoopCaregiver
@@ -102,8 +106,8 @@ WARNING: These Loop and NS branch are based off dev. If dev updates are desired 
 * Loop
   * Description: Includes Remote 2.0 additions
   * Repo: https://github.com/LoopKit/LoopWorkspace.git
-  * Branch feature/2023-07/bg/remote-commands - This was based off Loop dev as of 7-3-23
-    * `git clone https://github.com/LoopKit/LoopWorkspace.git --branch=feature/2023-07/bg/remote-commands --recurse-submodules`
+  * Branch: Use below to clone which was forked from the dev branch. Note these branches get out of date quickly with dev work. 
+    * `git clone https://github.com/LoopKit/LoopWorkspace.git --branch=feature/2023-10/bg/remote-commands --recurse-submodules`
 
 ### Remote 2.0 Usage
 

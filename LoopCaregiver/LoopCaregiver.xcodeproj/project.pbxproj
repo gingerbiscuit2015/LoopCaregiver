@@ -7,94 +7,102 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A90DB9542930F879004B58D3 /* CaregiverSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90DB9532930F879004B58D3 /* CaregiverSettings.swift */; };
-		A92AB6C12A3151E900977536 /* NewGlucoseSample+Presentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92AB6C02A3151E900977536 /* NewGlucoseSample+Presentable.swift */; };
+		A90DAD7A2B2C76CA0092A3D9 /* Looper+SwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90DAD792B2C76CA0092A3D9 /* Looper+SwiftUI.swift */; };
+		A92256352B2F952F0024EA56 /* LoopCaregiverKit in Frameworks */ = {isa = PBXBuildFile; productRef = A92256342B2F952F0024EA56 /* LoopCaregiverKit */; };
 		A930C6C22A8F99AA004BB459 /* CGRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = A930C6C12A8F99AA004BB459 /* CGRect.swift */; };
 		A930C6C52A9364BD004BB459 /* DemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A930C6C42A9364BC004BB459 /* DemoView.swift */; };
+		A933EFA22B30FF460094C32C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A933EFA12B30FF460094C32C /* HomeView.swift */; };
+		A933EFA42B3106970094C32C /* TimelineProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A933EFA32B3106970094C32C /* TimelineProvider.swift */; };
+		A933EFA92B3116F20094C32C /* SimpleEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = A933EFA82B3116F20094C32C /* SimpleEntry.swift */; };
 		A9346F862AC9820500C15F70 /* OverrideViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9346F852AC9820500C15F70 /* OverrideViewModelTests.swift */; };
 		A947025D2932299600FB3E59 /* ChartsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A947025C2932299600FB3E59 /* ChartsListView.swift */; };
 		A94702692932429F00FB3E59 /* DoseChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94702682932429F00FB3E59 /* DoseChartView.swift */; };
 		A947026C293254B500FB3E59 /* COBChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A947026B293254B500FB3E59 /* COBChartView.swift */; };
 		A94702702932C21E00FB3E59 /* IOBChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A947026F2932C21E00FB3E59 /* IOBChartView.swift */; };
-		A948D1A8292AB782003C5683 /* LoopKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A95F50BF292A602F00079AAF /* LoopKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		A95223662A7EDA9B0070FE13 /* OverrideAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95223612A7EDA9B0070FE13 /* OverrideAction.swift */; };
-		A95223672A7EDA9B0070FE13 /* BolusAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95223622A7EDA9B0070FE13 /* BolusAction.swift */; };
-		A95223682A7EDA9B0070FE13 /* OverrideCancelAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95223632A7EDA9B0070FE13 /* OverrideCancelAction.swift */; };
-		A95223692A7EDA9B0070FE13 /* CarbAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95223642A7EDA9B0070FE13 /* CarbAction.swift */; };
-		A952236A2A7EDA9B0070FE13 /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95223652A7EDA9B0070FE13 /* Action.swift */; };
-		A952236D2A7EDC790070FE13 /* RemoteCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = A952236B2A7EDC790070FE13 /* RemoteCommand.swift */; };
-		A952236E2A7EDC790070FE13 /* RemoteCommandStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = A952236C2A7EDC790070FE13 /* RemoteCommandStatus.swift */; };
-		A95223722A7EDCB90070FE13 /* NSRemoteCommandPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95223702A7EDCB90070FE13 /* NSRemoteCommandPayload.swift */; };
-		A95223732A7EDCB90070FE13 /* RemoteCommandStatus+Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95223712A7EDCB90070FE13 /* RemoteCommandStatus+Extras.swift */; };
-		A95223762A7EDE660070FE13 /* AutobolusAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95223742A7EDE660070FE13 /* AutobolusAction.swift */; };
-		A95223772A7EDE660070FE13 /* ClosedLoopAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95223752A7EDE660070FE13 /* ClosedLoopAction.swift */; };
+		A9480DFF2B2CA5430044C972 /* LoopKit in Frameworks */ = {isa = PBXBuildFile; productRef = A9480DFE2B2CA5430044C972 /* LoopKit */; };
+		A94EFDBF2B44DBD80048E4F3 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94EFDBD2B44DBD80048E4F3 /* SettingsView.swift */; };
+		A94EFDC02B44DBD80048E4F3 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94EFDBE2B44DBD80048E4F3 /* SettingsViewModel.swift */; };
 		A95223792A7FA0890070FE13 /* RemoteCommand+Charts.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95223782A7FA0890070FE13 /* RemoteCommand+Charts.swift */; };
+		A95CCCEE2B2F90DF000BFC25 /* LoopCaregiverKit in Frameworks */ = {isa = PBXBuildFile; productRef = A95CCCED2B2F90DF000BFC25 /* LoopCaregiverKit */; };
 		A95F50C5292A648600079AAF /* PredictedGlucoseChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95F50C4292A648600079AAF /* PredictedGlucoseChartView.swift */; };
-		A95F50C7292A657F00079AAF /* LoopKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A95F50C6292A657F00079AAF /* LoopKitUI.framework */; };
-		A95F50C8292A657F00079AAF /* LoopKitUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A95F50C6292A657F00079AAF /* LoopKitUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A96929352926E5CE00B8BF43 /* HUDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96929342926E5CE00B8BF43 /* HUDView.swift */; };
 		A969293B2926ECF500B8BF43 /* BottomBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A969293A2926ECF500B8BF43 /* BottomBarView.swift */; };
-		A969293F2926EFEC00B8BF43 /* Looper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A969293C2926EFEC00B8BF43 /* Looper.swift */; };
-		A96929402926EFEC00B8BF43 /* AccountServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A969293D2926EFEC00B8BF43 /* AccountServiceManager.swift */; };
 		A96929412926EFEC00B8BF43 /* LooperSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A969293E2926EFEC00B8BF43 /* LooperSetupView.swift */; };
-		A96929702927FEBB00B8BF43 /* LoopCaregiver.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A969296E2927FEBB00B8BF43 /* LoopCaregiver.xcdatamodeld */; };
-		A96929912927FFBA00B8BF43 /* AccountService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96929902927FFBA00B8BF43 /* AccountService.swift */; };
-		A96929932929908100B8BF43 /* NightscoutDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96929922929908100B8BF43 /* NightscoutDataSource.swift */; };
-		A9744DEA2933B0FE000A3D6A /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9744DE92933B0FE000A3D6A /* View.swift */; };
+		A970838F2B4D54CC0053D633 /* CustomDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A970838E2B4D54CC0053D633 /* CustomDatePicker.swift */; };
+		A97083912B4D55130053D633 /* OverrideViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97083902B4D55130053D633 /* OverrideViewModel.swift */; };
+		A97083932B4D55A00053D633 /* OverridePickerRowModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97083922B4D55A00053D633 /* OverridePickerRowModel.swift */; };
 		A9744DEC293405A4000A3D6A /* PinchZoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9744DEB293405A4000A3D6A /* PinchZoom.swift */; };
-		A97B729C293E83BA0053DBB8 /* LocalizationUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97B729B293E83BA0053DBB8 /* LocalizationUtils.swift */; };
 		A98348912AD206CD0034ABB2 /* PresetRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98348902AD206CD0034ABB2 /* PresetRowView.swift */; };
-		A98D4CAF292C26CD00EFF5C6 /* NightscoutCredentialService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98D4CAE292C26CD00EFF5C6 /* NightscoutCredentialService.swift */; };
-		A98D4CB2292C394800EFF5C6 /* NightscoutCredentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98D4CB1292C394800EFF5C6 /* NightscoutCredentials.swift */; };
 		A98F5E112930F18A00A03580 /* NewGlucoseSample+Charts.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98F5E102930F18A00A03580 /* NewGlucoseSample+Charts.swift */; };
-		A98FF28E29A11CC8005739A5 /* OverrideTreatment.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98FF28D29A11CC8005739A5 /* OverrideTreatment.swift */; };
-		A9972774292FC0B0006C8C74 /* CoreDataAccountService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9972773292FC0B0006C8C74 /* CoreDataAccountService.swift */; };
-		A9972776292FCE6A006C8C74 /* LooperService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9972775292FCE6A006C8C74 /* LooperService.swift */; };
-		A9972778292FEA06006C8C74 /* RemoteDataServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9972777292FEA06006C8C74 /* RemoteDataServiceManager.swift */; };
 		A99DC86529992DD20058EBA5 /* DisclaimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99DC86429992DD20058EBA5 /* DisclaimerView.swift */; };
-		A99DC867299984430058EBA5 /* Date+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99DC866299984430058EBA5 /* Date+Utils.swift */; };
+		A99F2F382A29350D00F7DE2D /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A99F2F372A29350C00F7DE2D /* WidgetKit.framework */; };
+		A99F2F3A2A29350D00F7DE2D /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A99F2F392A29350D00F7DE2D /* SwiftUI.framework */; };
+		A99F2F3D2A29350D00F7DE2D /* LoopCaregiverWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99F2F3C2A29350D00F7DE2D /* LoopCaregiverWidgetBundle.swift */; };
+		A99F2F412A29350D00F7DE2D /* LoopCaregiverWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99F2F402A29350D00F7DE2D /* LoopCaregiverWidget.swift */; };
+		A99F2F442A29350F00F7DE2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A99F2F432A29350F00F7DE2D /* Assets.xcassets */; };
+		A99F2F462A29350F00F7DE2D /* LoopCaregiverWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = A99F2F422A29350D00F7DE2D /* LoopCaregiverWidget.intentdefinition */; };
+		A99F2F472A29350F00F7DE2D /* LoopCaregiverWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = A99F2F422A29350D00F7DE2D /* LoopCaregiverWidget.intentdefinition */; };
 		A99F2F742A2A986600F7DE2D /* CarbCorrectionNightscoutTreatment+Charts.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99F2F732A2A986600F7DE2D /* CarbCorrectionNightscoutTreatment+Charts.swift */; };
 		A99F2F772A2A98AE00F7DE2D /* BolusNightscoutTreatment+Charts.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99F2F762A2A98AE00F7DE2D /* BolusNightscoutTreatment+Charts.swift */; };
-		A9A362DB2A80EEFE007B017C /* OverrideCancelRemoteNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A362D62A80EEFE007B017C /* OverrideCancelRemoteNotification.swift */; };
-		A9A362DC2A80EEFE007B017C /* CarbRemoteNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A362D72A80EEFE007B017C /* CarbRemoteNotification.swift */; };
-		A9A362DD2A80EEFE007B017C /* OverrideRemoteNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A362D82A80EEFE007B017C /* OverrideRemoteNotification.swift */; };
-		A9A362DE2A80EEFE007B017C /* BolusRemoteNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A362D92A80EEFE007B017C /* BolusRemoteNotification.swift */; };
-		A9A362DF2A80EEFE007B017C /* RemoteNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A362DA2A80EEFE007B017C /* RemoteNotification.swift */; };
-		A9A362E12A80F071007B017C /* NoteNightscoutTreatment+RemoteCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A362E02A80F071007B017C /* NoteNightscoutTreatment+RemoteCommand.swift */; };
-		A9A45D702A77B5480013CD5B /* NoteNightscoutTreatment.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A45D6F2A77B5480013CD5B /* NoteNightscoutTreatment.swift */; };
+		A99F2F7B2A2AA0E100F7DE2D /* SimpleEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99F2F792A2AA0DD00F7DE2D /* SimpleEntry.swift */; };
+		A99F2F7D2A2AA16200F7DE2D /* LoopCaregiverWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99F2F7C2A2AA16200F7DE2D /* LoopCaregiverWidgetView.swift */; };
+		A99F2F7F2A2AA19E00F7DE2D /* TimelineProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99F2F7E2A2AA19E00F7DE2D /* TimelineProvider.swift */; };
 		A9A62C7F2AD1BD4C004CD316 /* TimeInterval.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A62C7E2AD1BD4C004CD316 /* TimeInterval.swift */; };
 		A9B033E4292306A90052AA9E /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = A9B033E3292306A90052AA9E /* CodeScanner */; };
-		A9B033E629230FF20052AA9E /* OTPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B033E529230FF20052AA9E /* OTPManager.swift */; };
 		A9B033E829231DCE0052AA9E /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B033E729231DCE0052AA9E /* SettingsView.swift */; };
+		A9BAEE6C2B5C552D002C7C46 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9BAEE6B2B5C552D002C7C46 /* HomeView.swift */; };
+		A9BAEE6E2B5C555F002C7C46 /* FirstRunView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9BAEE6D2B5C555F002C7C46 /* FirstRunView.swift */; };
+		A9BBD8252B2C992900072287 /* LoopCaregiverKit in Frameworks */ = {isa = PBXBuildFile; productRef = A9BBD8242B2C992900072287 /* LoopCaregiverKit */; };
+		A9BBD8272B2C992F00072287 /* LoopCaregiverKit in Frameworks */ = {isa = PBXBuildFile; productRef = A9BBD8262B2C992F00072287 /* LoopCaregiverKit */; };
+		A9BBD8292B2C993500072287 /* LoopCaregiverKit in Frameworks */ = {isa = PBXBuildFile; productRef = A9BBD8282B2C993500072287 /* LoopCaregiverKit */; };
 		A9BD0DE02A89515700988E2C /* ZoomableScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9BD0DDF2A89515700988E2C /* ZoomableScrollView.swift */; };
 		A9BD7B532AD0D8D300E73973 /* OverrideInsulinNeedsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9BD7B522AD0D8D300E73973 /* OverrideInsulinNeedsView.swift */; };
 		A9BD7B552AD17AAD00E73973 /* PresetEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9BD7B542AD17AAD00E73973 /* PresetEditView.swift */; };
-		A9C4D7E62969A69F00D3875F /* IOBStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C4D7E52969A69F00D3875F /* IOBStatus.swift */; };
-		A9C4D7E82969A6A900D3875F /* COBStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C4D7E72969A6A900D3875F /* COBStatus.swift */; };
-		A9C4D7EA2969A6B600D3875F /* ProfileSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C4D7E92969A6B600D3875F /* ProfileSet.swift */; };
-		A9C4D7EC2969B69600D3875F /* GlucoseEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C4D7EB2969B69600D3875F /* GlucoseEntry.swift */; };
-		A9C4D7EE2969B70000D3875F /* NightscoutTreatment.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C4D7ED2969B70000D3875F /* NightscoutTreatment.swift */; };
-		A9C4D7F02969B76A00D3875F /* TempBasalNightscoutTreatment.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C4D7EF2969B76A00D3875F /* TempBasalNightscoutTreatment.swift */; };
-		A9C4D7F22969B78A00D3875F /* BolusNightscoutTreatment.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C4D7F12969B78A00D3875F /* BolusNightscoutTreatment.swift */; };
-		A9C4D7F42969B79E00D3875F /* CarbCorrectionNightscoutTreatment.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C4D7F32969B79E00D3875F /* CarbCorrectionNightscoutTreatment.swift */; };
-		A9C4D7F62969B92800D3875F /* TemporaryScheduleOverride.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C4D7F52969B92800D3875F /* TemporaryScheduleOverride.swift */; };
 		A9C89ED72A7074EE00EFD938 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C89ED62A7074EE00EFD938 /* UIColor.swift */; };
 		A9C89ED92A70758000EFD938 /* UIColor+HIG.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C89ED82A70758000EFD938 /* UIColor+HIG.swift */; };
-		A9CA102F2A7FF6A700EE114C /* SwiftCharts in Frameworks */ = {isa = PBXBuildFile; productRef = A9CA102E2A7FF6A700EE114C /* SwiftCharts */; };
-		A9CA10302A7FF73200EE114C /* SwiftCharts in Embed Frameworks */ = {isa = PBXBuildFile; productRef = A9CA102E2A7FF6A700EE114C /* SwiftCharts */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		A9CFDD1E2AEBFF1200FA701B /* LoopCaregiverWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CFDD1D2AEBFF1200FA701B /* LoopCaregiverWatchApp.swift */; };
+		A9CFDD202AEBFF1200FA701B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CFDD1F2AEBFF1200FA701B /* ContentView.swift */; };
+		A9CFDD222AEBFF1400FA701B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9CFDD212AEBFF1400FA701B /* Assets.xcassets */; };
+		A9CFDD252AEBFF1400FA701B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9CFDD242AEBFF1400FA701B /* Preview Assets.xcassets */; };
+		A9CFDD292AEBFF1400FA701B /* LoopCaregiverWatchApp.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A9CFDD1B2AEBFF1200FA701B /* LoopCaregiverWatchApp.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A9CFDD322AEC02D600FA701B /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A99F2F372A29350C00F7DE2D /* WidgetKit.framework */; };
+		A9CFDD332AEC02D600FA701B /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A99F2F392A29350D00F7DE2D /* SwiftUI.framework */; };
+		A9CFDD362AEC02D600FA701B /* LoopCaregiverWatchAppExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CFDD352AEC02D600FA701B /* LoopCaregiverWatchAppExtension.swift */; };
+		A9CFDD382AEC02D600FA701B /* ConfigurationAppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CFDD372AEC02D600FA701B /* ConfigurationAppIntent.swift */; };
+		A9CFDD3A2AEC02D700FA701B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9CFDD392AEC02D700FA701B /* Assets.xcassets */; };
+		A9CFDD3E2AEC02D700FA701B /* LoopCaregiverWatchAppExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = A9CFDD312AEC02D600FA701B /* LoopCaregiverWatchAppExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		A9D3FF222A6C3B99000C891D /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D3FF212A6C3B99000C891D /* Color.swift */; };
-		A9D3FF242A6C3C54000C891D /* HKUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D3FF232A6C3C54000C891D /* HKUnit.swift */; };
+		A9DCD2EB2BC9373100AA258A /* GraphItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DCD2EA2BC9373100AA258A /* GraphItem.swift */; };
+		A9DCD2ED2BC9375600AA258A /* FilledCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DCD2EC2BC9375600AA258A /* FilledCircle.swift */; };
+		A9DCD2EF2BC9378000AA258A /* AnnotationColorStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DCD2EE2BC9378000AA258A /* AnnotationColorStyle.swift */; };
+		A9DCD2F12BCD2C2C00AA258A /* OverrideViewDelegateMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DCD2F02BCD2C2C00AA258A /* OverrideViewDelegateMock.swift */; };
+		A9E14D3A2A2BA5A600BDB93D /* LoopCaregiverWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = A99F2F362A29350C00F7DE2D /* LoopCaregiverWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		A9EC197C291FEF940022D39F /* LoopCaregiverApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9EC197B291FEF940022D39F /* LoopCaregiverApp.swift */; };
 		A9EC197E291FEF940022D39F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9EC197D291FEF940022D39F /* ContentView.swift */; };
 		A9EC1980291FEF950022D39F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9EC197F291FEF950022D39F /* Assets.xcassets */; };
 		A9EC1983291FEF950022D39F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9EC1982291FEF950022D39F /* Preview Assets.xcassets */; };
-		A9EC199E292101550022D39F /* NightscoutChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9EC199D292101550022D39F /* NightscoutChartView.swift */; };
+		A9EC199E292101550022D39F /* NightscoutChartScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9EC199D292101550022D39F /* NightscoutChartScrollView.swift */; };
 		A9EC19A1292128D60022D39F /* TreatmentAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9EC19A0292128D60022D39F /* TreatmentAnnotationView.swift */; };
-		A9EC19A4292141980022D39F /* OneTimePassword in Frameworks */ = {isa = PBXBuildFile; productRef = A9EC19A3292141980022D39F /* OneTimePassword */; };
 		A9EC19A9292144040022D39F /* OverrideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9EC19A8292144040022D39F /* OverrideView.swift */; };
 		A9EC19AB292156D80022D39F /* CarbInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9EC19AA292156D80022D39F /* CarbInputView.swift */; };
 		A9EC19AD2921A19C0022D39F /* BolusInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9EC19AC2921A19C0022D39F /* BolusInputView.swift */; };
-		A9EEB92B29D4FCB3004EE7FB /* NightscoutKit in Frameworks */ = {isa = PBXBuildFile; productRef = A9EEB92A29D4FCB3004EE7FB /* NightscoutKit */; };
+		A9EC5C7E2B10E9FC00AA32EF /* UserDefaults+Watch.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9EC5C7D2B10E9FC00AA32EF /* UserDefaults+Watch.swift */; };
+		A9EC5C7F2B10E9FC00AA32EF /* UserDefaults+Watch.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9EC5C7D2B10E9FC00AA32EF /* UserDefaults+Watch.swift */; };
+		A9ECCB282B286CD90057DEDF /* AppExpirationAlerter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9ECCB272B286CD90057DEDF /* AppExpirationAlerter.swift */; };
+		A9ECCB2A2B286DB50057DEDF /* UserDefaults+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9ECCB292B286DB50057DEDF /* UserDefaults+Extensions.swift */; };
+		A9ECCB2C2B29C5270057DEDF /* AppExpirationAlerterRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9ECCB2B2B29C5270057DEDF /* AppExpirationAlerterRepresentable.swift */; };
+		A9ECCB322B2C73270057DEDF /* LoopKit in Frameworks */ = {isa = PBXBuildFile; productRef = A9ECCB312B2C73270057DEDF /* LoopKit */; };
+		A9ECCB342B2C73270057DEDF /* LoopKitUI in Frameworks */ = {isa = PBXBuildFile; productRef = A9ECCB332B2C73270057DEDF /* LoopKitUI */; };
+		A9ECCB362B2C73520057DEDF /* LoopKit in Frameworks */ = {isa = PBXBuildFile; productRef = A9ECCB352B2C73520057DEDF /* LoopKit */; };
+		A9ECCB382B2C73520057DEDF /* LoopKitUI in Frameworks */ = {isa = PBXBuildFile; productRef = A9ECCB372B2C73520057DEDF /* LoopKitUI */; };
+		A9ECCB3A2B2C73640057DEDF /* LoopKit in Frameworks */ = {isa = PBXBuildFile; productRef = A9ECCB392B2C73640057DEDF /* LoopKit */; };
+		A9F871202A2EBE63007EC235 /* Intents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9F8711F2A2EBE63007EC235 /* Intents.framework */; };
+		A9F871232A2EBE63007EC235 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F871222A2EBE63007EC235 /* IntentHandler.swift */; };
+		A9F871382A2EBE64007EC235 /* LoopCaregiverIntentExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = A9F8711E2A2EBE63007EC235 /* LoopCaregiverIntentExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A9F8713F2A2EBE79007EC235 /* LoopCaregiverWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = A99F2F422A29350D00F7DE2D /* LoopCaregiverWidget.intentdefinition */; };
+		B63A43D72B2549BA004CFEAA /* BuildDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63A43D62B2549BA004CFEAA /* BuildDetails.swift */; };
+		B63A43E02B2603DD004CFEAA /* BuildDetails.plist in Resources */ = {isa = PBXBuildFile; fileRef = B63A43DF2B2603DD004CFEAA /* BuildDetails.plist */; };
+		B63A43E22B2603ED004CFEAA /* Scripts in Resources */ = {isa = PBXBuildFile; fileRef = B63A43E12B2603ED004CFEAA /* Scripts */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,6 +113,34 @@
 			remoteGlobalIDString = A9EC1977291FEF940022D39F;
 			remoteInfo = LoopCaregiver;
 		};
+		A9CFDD262AEBFF1400FA701B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9EC1970291FEF940022D39F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9CFDD1A2AEBFF1200FA701B;
+			remoteInfo = "LoopCaregiverWatchApp Watch App";
+		};
+		A9CFDD3C2AEC02D700FA701B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9EC1970291FEF940022D39F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9CFDD302AEC02D600FA701B;
+			remoteInfo = LoopCaregiverWatchAppExtensionExtension;
+		};
+		A9E14D382A2BA59C00BDB93D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9EC1970291FEF940022D39F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A99F2F352A29350C00F7DE2D;
+			remoteInfo = LoopCaregiverWidgetExtension;
+		};
+		A9F871362A2EBE64007EC235 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9EC1970291FEF940022D39F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9F8711D2A2EBE63007EC235;
+			remoteInfo = MyIntentExtension;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -114,11 +150,42 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				A948D1A8292AB782003C5683 /* LoopKit.framework in Embed Frameworks */,
-				A9CA10302A7FF73200EE114C /* SwiftCharts in Embed Frameworks */,
-				A95F50C8292A657F00079AAF /* LoopKitUI.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9CFDD282AEBFF1400FA701B /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				A9CFDD292AEBFF1400FA701B /* LoopCaregiverWatchApp.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9CFDD422AEC02D700FA701B /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A9CFDD3E2AEC02D700FA701B /* LoopCaregiverWatchAppExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9E14D3D2A2BA5A600BDB93D /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A9F871382A2EBE64007EC235 /* LoopCaregiverIntentExtension.appex in Embed Foundation Extensions */,
+				A9E14D3A2A2BA5A600BDB93D /* LoopCaregiverWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -126,29 +193,21 @@
 /* Begin PBXFileReference section */
 		3D717B1629799E8A00B31B03 /* LoopCaregiver.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = LoopCaregiver.xcconfig; sourceTree = "<group>"; };
 		3DF4E0882980736C00E91E16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		A90DB9532930F879004B58D3 /* CaregiverSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaregiverSettings.swift; sourceTree = "<group>"; };
-		A92AB6C02A3151E900977536 /* NewGlucoseSample+Presentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NewGlucoseSample+Presentable.swift"; sourceTree = "<group>"; };
-		A92AB6CE2A31D81200977536 /* LoopCaregiver 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "LoopCaregiver 2.xcdatamodel"; sourceTree = "<group>"; };
+		A90DAD792B2C76CA0092A3D9 /* Looper+SwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Looper+SwiftUI.swift"; sourceTree = "<group>"; };
 		A930C6C12A8F99AA004BB459 /* CGRect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGRect.swift; sourceTree = "<group>"; };
 		A930C6C42A9364BC004BB459 /* DemoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoView.swift; sourceTree = "<group>"; };
 		A933181B2969FC17006CC3A2 /* Crypto.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crypto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A933EFA12B30FF460094C32C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A933EFA32B3106970094C32C /* TimelineProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineProvider.swift; sourceTree = "<group>"; };
+		A933EFA82B3116F20094C32C /* SimpleEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleEntry.swift; sourceTree = "<group>"; };
 		A9346F832AC9820500C15F70 /* LoopCaregiverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoopCaregiverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9346F852AC9820500C15F70 /* OverrideViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverrideViewModelTests.swift; sourceTree = "<group>"; };
 		A947025C2932299600FB3E59 /* ChartsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsListView.swift; sourceTree = "<group>"; };
 		A94702682932429F00FB3E59 /* DoseChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoseChartView.swift; sourceTree = "<group>"; };
 		A947026B293254B500FB3E59 /* COBChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COBChartView.swift; sourceTree = "<group>"; };
 		A947026F2932C21E00FB3E59 /* IOBChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOBChartView.swift; sourceTree = "<group>"; };
-		A95223612A7EDA9B0070FE13 /* OverrideAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverrideAction.swift; sourceTree = "<group>"; };
-		A95223622A7EDA9B0070FE13 /* BolusAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BolusAction.swift; sourceTree = "<group>"; };
-		A95223632A7EDA9B0070FE13 /* OverrideCancelAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverrideCancelAction.swift; sourceTree = "<group>"; };
-		A95223642A7EDA9B0070FE13 /* CarbAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarbAction.swift; sourceTree = "<group>"; };
-		A95223652A7EDA9B0070FE13 /* Action.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Action.swift; sourceTree = "<group>"; };
-		A952236B2A7EDC790070FE13 /* RemoteCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteCommand.swift; sourceTree = "<group>"; };
-		A952236C2A7EDC790070FE13 /* RemoteCommandStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteCommandStatus.swift; sourceTree = "<group>"; };
-		A95223702A7EDCB90070FE13 /* NSRemoteCommandPayload.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSRemoteCommandPayload.swift; sourceTree = "<group>"; };
-		A95223712A7EDCB90070FE13 /* RemoteCommandStatus+Extras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RemoteCommandStatus+Extras.swift"; sourceTree = "<group>"; };
-		A95223742A7EDE660070FE13 /* AutobolusAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutobolusAction.swift; sourceTree = "<group>"; };
-		A95223752A7EDE660070FE13 /* ClosedLoopAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClosedLoopAction.swift; sourceTree = "<group>"; };
+		A94EFDBD2B44DBD80048E4F3 /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		A94EFDBE2B44DBD80048E4F3 /* SettingsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
 		A95223782A7FA0890070FE13 /* RemoteCommand+Charts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RemoteCommand+Charts.swift"; sourceTree = "<group>"; };
 		A95F50BF292A602F00079AAF /* LoopKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LoopKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A95F50C4292A648600079AAF /* PredictedGlucoseChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredictedGlucoseChartView.swift; sourceTree = "<group>"; };
@@ -158,64 +217,84 @@
 		A9688E2D299730C500CDD4D6 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		A96929342926E5CE00B8BF43 /* HUDView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HUDView.swift; sourceTree = "<group>"; };
 		A969293A2926ECF500B8BF43 /* BottomBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomBarView.swift; sourceTree = "<group>"; };
-		A969293C2926EFEC00B8BF43 /* Looper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Looper.swift; sourceTree = "<group>"; };
-		A969293D2926EFEC00B8BF43 /* AccountServiceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountServiceManager.swift; sourceTree = "<group>"; };
 		A969293E2926EFEC00B8BF43 /* LooperSetupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LooperSetupView.swift; sourceTree = "<group>"; };
-		A969296F2927FEBB00B8BF43 /* LoopCaregiver.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LoopCaregiver.xcdatamodel; sourceTree = "<group>"; };
-		A96929902927FFBA00B8BF43 /* AccountService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountService.swift; sourceTree = "<group>"; };
-		A96929922929908100B8BF43 /* NightscoutDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightscoutDataSource.swift; sourceTree = "<group>"; };
+		A970838E2B4D54CC0053D633 /* CustomDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDatePicker.swift; sourceTree = "<group>"; };
+		A97083902B4D55130053D633 /* OverrideViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverrideViewModel.swift; sourceTree = "<group>"; };
+		A97083922B4D55A00053D633 /* OverridePickerRowModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverridePickerRowModel.swift; sourceTree = "<group>"; };
 		A973364229678EA300DFE395 /* NightscoutUploadKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NightscoutUploadKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A9744DE92933B0FE000A3D6A /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 		A9744DEB293405A4000A3D6A /* PinchZoom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinchZoom.swift; sourceTree = "<group>"; };
-		A97B729B293E83BA0053DBB8 /* LocalizationUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationUtils.swift; sourceTree = "<group>"; };
 		A98348902AD206CD0034ABB2 /* PresetRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresetRowView.swift; sourceTree = "<group>"; };
-		A98D4CAE292C26CD00EFF5C6 /* NightscoutCredentialService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightscoutCredentialService.swift; sourceTree = "<group>"; };
-		A98D4CB1292C394800EFF5C6 /* NightscoutCredentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightscoutCredentials.swift; sourceTree = "<group>"; };
 		A98F5E102930F18A00A03580 /* NewGlucoseSample+Charts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NewGlucoseSample+Charts.swift"; sourceTree = "<group>"; };
-		A98FF28D29A11CC8005739A5 /* OverrideTreatment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverrideTreatment.swift; sourceTree = "<group>"; };
-		A9972773292FC0B0006C8C74 /* CoreDataAccountService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataAccountService.swift; sourceTree = "<group>"; };
-		A9972775292FCE6A006C8C74 /* LooperService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LooperService.swift; sourceTree = "<group>"; };
-		A9972777292FEA06006C8C74 /* RemoteDataServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteDataServiceManager.swift; sourceTree = "<group>"; };
+		A99BC5172AE5645B006D52EF /* .github */ = {isa = PBXFileReference; lastKnownFileType = folder; name = .github; path = ../.github; sourceTree = "<group>"; };
+		A99BC5182AE56468006D52EF /* fastlane */ = {isa = PBXFileReference; lastKnownFileType = folder; name = fastlane; path = ../fastlane; sourceTree = "<group>"; };
 		A99DC86429992DD20058EBA5 /* DisclaimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisclaimerView.swift; sourceTree = "<group>"; };
-		A99DC866299984430058EBA5 /* Date+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Utils.swift"; sourceTree = "<group>"; };
+		A99F2F362A29350C00F7DE2D /* LoopCaregiverWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = LoopCaregiverWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		A99F2F372A29350C00F7DE2D /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		A99F2F392A29350D00F7DE2D /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		A99F2F3C2A29350D00F7DE2D /* LoopCaregiverWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoopCaregiverWidgetBundle.swift; sourceTree = "<group>"; };
+		A99F2F402A29350D00F7DE2D /* LoopCaregiverWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoopCaregiverWidget.swift; sourceTree = "<group>"; };
+		A99F2F422A29350D00F7DE2D /* LoopCaregiverWidget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = LoopCaregiverWidget.intentdefinition; sourceTree = "<group>"; };
+		A99F2F432A29350F00F7DE2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A99F2F452A29350F00F7DE2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A99F2F4F2A29396900F7DE2D /* LoopCaregiverWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LoopCaregiverWidgetExtension.entitlements; sourceTree = "<group>"; };
+		A99F2F502A29398F00F7DE2D /* LoopCaregiver.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LoopCaregiver.entitlements; sourceTree = "<group>"; };
 		A99F2F732A2A986600F7DE2D /* CarbCorrectionNightscoutTreatment+Charts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CarbCorrectionNightscoutTreatment+Charts.swift"; sourceTree = "<group>"; };
 		A99F2F762A2A98AE00F7DE2D /* BolusNightscoutTreatment+Charts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BolusNightscoutTreatment+Charts.swift"; sourceTree = "<group>"; };
-		A9A362D62A80EEFE007B017C /* OverrideCancelRemoteNotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverrideCancelRemoteNotification.swift; sourceTree = "<group>"; };
-		A9A362D72A80EEFE007B017C /* CarbRemoteNotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarbRemoteNotification.swift; sourceTree = "<group>"; };
-		A9A362D82A80EEFE007B017C /* OverrideRemoteNotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverrideRemoteNotification.swift; sourceTree = "<group>"; };
-		A9A362D92A80EEFE007B017C /* BolusRemoteNotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BolusRemoteNotification.swift; sourceTree = "<group>"; };
-		A9A362DA2A80EEFE007B017C /* RemoteNotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteNotification.swift; sourceTree = "<group>"; };
-		A9A362E02A80F071007B017C /* NoteNightscoutTreatment+RemoteCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NoteNightscoutTreatment+RemoteCommand.swift"; sourceTree = "<group>"; };
-		A9A45D6F2A77B5480013CD5B /* NoteNightscoutTreatment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteNightscoutTreatment.swift; sourceTree = "<group>"; };
+		A99F2F792A2AA0DD00F7DE2D /* SimpleEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleEntry.swift; sourceTree = "<group>"; };
+		A99F2F7C2A2AA16200F7DE2D /* LoopCaregiverWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoopCaregiverWidgetView.swift; sourceTree = "<group>"; };
+		A99F2F7E2A2AA19E00F7DE2D /* TimelineProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineProvider.swift; sourceTree = "<group>"; };
 		A9A62C7E2AD1BD4C004CD316 /* TimeInterval.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeInterval.swift; sourceTree = "<group>"; };
-		A9B033E529230FF20052AA9E /* OTPManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPManager.swift; sourceTree = "<group>"; };
 		A9B033E729231DCE0052AA9E /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		A9BAEE6B2B5C552D002C7C46 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A9BAEE6D2B5C555F002C7C46 /* FirstRunView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstRunView.swift; sourceTree = "<group>"; };
+		A9BBD8232B2C991D00072287 /* LoopCaregiverKit */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = LoopCaregiverKit; path = ../LoopCaregiverKit; sourceTree = "<group>"; };
 		A9BD0DDF2A89515700988E2C /* ZoomableScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZoomableScrollView.swift; sourceTree = "<group>"; };
 		A9BD7B522AD0D8D300E73973 /* OverrideInsulinNeedsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverrideInsulinNeedsView.swift; sourceTree = "<group>"; };
 		A9BD7B542AD17AAD00E73973 /* PresetEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresetEditView.swift; sourceTree = "<group>"; };
-		A9C4D7E52969A69F00D3875F /* IOBStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOBStatus.swift; sourceTree = "<group>"; };
-		A9C4D7E72969A6A900D3875F /* COBStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COBStatus.swift; sourceTree = "<group>"; };
-		A9C4D7E92969A6B600D3875F /* ProfileSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSet.swift; sourceTree = "<group>"; };
-		A9C4D7EB2969B69600D3875F /* GlucoseEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlucoseEntry.swift; sourceTree = "<group>"; };
-		A9C4D7ED2969B70000D3875F /* NightscoutTreatment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightscoutTreatment.swift; sourceTree = "<group>"; };
-		A9C4D7EF2969B76A00D3875F /* TempBasalNightscoutTreatment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempBasalNightscoutTreatment.swift; sourceTree = "<group>"; };
-		A9C4D7F12969B78A00D3875F /* BolusNightscoutTreatment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BolusNightscoutTreatment.swift; sourceTree = "<group>"; };
-		A9C4D7F32969B79E00D3875F /* CarbCorrectionNightscoutTreatment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarbCorrectionNightscoutTreatment.swift; sourceTree = "<group>"; };
-		A9C4D7F52969B92800D3875F /* TemporaryScheduleOverride.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemporaryScheduleOverride.swift; sourceTree = "<group>"; };
+		A9C666392ADAD41700D3B5CA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		A9C89ED62A7074EE00EFD938 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		A9C89ED82A70758000EFD938 /* UIColor+HIG.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+HIG.swift"; sourceTree = "<group>"; };
+		A9CFDD1B2AEBFF1200FA701B /* LoopCaregiverWatchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoopCaregiverWatchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9CFDD1D2AEBFF1200FA701B /* LoopCaregiverWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoopCaregiverWatchApp.swift; sourceTree = "<group>"; };
+		A9CFDD1F2AEBFF1200FA701B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A9CFDD212AEBFF1400FA701B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A9CFDD242AEBFF1400FA701B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A9CFDD312AEC02D600FA701B /* LoopCaregiverWatchAppExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = LoopCaregiverWatchAppExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9CFDD352AEC02D600FA701B /* LoopCaregiverWatchAppExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoopCaregiverWatchAppExtension.swift; sourceTree = "<group>"; };
+		A9CFDD372AEC02D600FA701B /* ConfigurationAppIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationAppIntent.swift; sourceTree = "<group>"; };
+		A9CFDD392AEC02D700FA701B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A9CFDD3B2AEC02D700FA701B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9CFDD432AEC042500FA701B /* LoopCaregiverWatchApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LoopCaregiverWatchApp.entitlements; sourceTree = "<group>"; };
+		A9CFDD442AEC043300FA701B /* LoopCaregiverWatchAppExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LoopCaregiverWatchAppExtension.entitlements; sourceTree = "<group>"; };
+		A9CFDD452AEC055500FA701B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		A9D3FF212A6C3B99000C891D /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
-		A9D3FF232A6C3C54000C891D /* HKUnit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HKUnit.swift; sourceTree = "<group>"; };
+		A9DCD2EA2BC9373100AA258A /* GraphItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphItem.swift; sourceTree = "<group>"; };
+		A9DCD2EC2BC9375600AA258A /* FilledCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilledCircle.swift; sourceTree = "<group>"; };
+		A9DCD2EE2BC9378000AA258A /* AnnotationColorStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationColorStyle.swift; sourceTree = "<group>"; };
+		A9DCD2F02BCD2C2C00AA258A /* OverrideViewDelegateMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverrideViewDelegateMock.swift; sourceTree = "<group>"; };
 		A9EC1978291FEF940022D39F /* LoopCaregiver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoopCaregiver.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9EC197B291FEF940022D39F /* LoopCaregiverApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoopCaregiverApp.swift; sourceTree = "<group>"; };
 		A9EC197D291FEF940022D39F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A9EC197F291FEF950022D39F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9EC1982291FEF950022D39F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		A9EC199D292101550022D39F /* NightscoutChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightscoutChartView.swift; sourceTree = "<group>"; };
+		A9EC199D292101550022D39F /* NightscoutChartScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightscoutChartScrollView.swift; sourceTree = "<group>"; };
 		A9EC19A0292128D60022D39F /* TreatmentAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreatmentAnnotationView.swift; sourceTree = "<group>"; };
 		A9EC19A8292144040022D39F /* OverrideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverrideView.swift; sourceTree = "<group>"; };
 		A9EC19AA292156D80022D39F /* CarbInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarbInputView.swift; sourceTree = "<group>"; };
 		A9EC19AC2921A19C0022D39F /* BolusInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BolusInputView.swift; sourceTree = "<group>"; };
+		A9EC5C7D2B10E9FC00AA32EF /* UserDefaults+Watch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Watch.swift"; sourceTree = "<group>"; };
+		A9ECCB272B286CD90057DEDF /* AppExpirationAlerter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppExpirationAlerter.swift; sourceTree = "<group>"; };
+		A9ECCB292B286DB50057DEDF /* UserDefaults+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Extensions.swift"; sourceTree = "<group>"; };
+		A9ECCB2B2B29C5270057DEDF /* AppExpirationAlerterRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppExpirationAlerterRepresentable.swift; sourceTree = "<group>"; };
+		A9F8711E2A2EBE63007EC235 /* LoopCaregiverIntentExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = LoopCaregiverIntentExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9F8711F2A2EBE63007EC235 /* Intents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Intents.framework; path = System/Library/Frameworks/Intents.framework; sourceTree = SDKROOT; };
+		A9F871222A2EBE63007EC235 /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
+		A9F871242A2EBE63007EC235 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9F8712A2A2EBE64007EC235 /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
+		A9F871642A2FF498007EC235 /* LoopCaregiverIntentExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LoopCaregiverIntentExtension.entitlements; sourceTree = "<group>"; };
+		B63A43D62B2549BA004CFEAA /* BuildDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuildDetails.swift; sourceTree = "<group>"; };
+		B63A43DF2B2603DD004CFEAA /* BuildDetails.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = BuildDetails.plist; sourceTree = SOURCE_ROOT; };
+		B63A43E12B2603ED004CFEAA /* Scripts */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Scripts; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -226,28 +305,68 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A99F2F332A29350C00F7DE2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9ECCB362B2C73520057DEDF /* LoopKit in Frameworks */,
+				A9BBD8272B2C992F00072287 /* LoopCaregiverKit in Frameworks */,
+				A99F2F3A2A29350D00F7DE2D /* SwiftUI.framework in Frameworks */,
+				A99F2F382A29350D00F7DE2D /* WidgetKit.framework in Frameworks */,
+				A9ECCB382B2C73520057DEDF /* LoopKitUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9CFDD182AEBFF1200FA701B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9480DFF2B2CA5430044C972 /* LoopKit in Frameworks */,
+				A92256352B2F952F0024EA56 /* LoopCaregiverKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9CFDD2E2AEC02D600FA701B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9CFDD332AEC02D600FA701B /* SwiftUI.framework in Frameworks */,
+				A9CFDD322AEC02D600FA701B /* WidgetKit.framework in Frameworks */,
+				A95CCCEE2B2F90DF000BFC25 /* LoopCaregiverKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A9EC1975291FEF940022D39F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9CA102F2A7FF6A700EE114C /* SwiftCharts in Frameworks */,
-				A9EC19A4292141980022D39F /* OneTimePassword in Frameworks */,
-				A95F50C7292A657F00079AAF /* LoopKitUI.framework in Frameworks */,
+				A9ECCB342B2C73270057DEDF /* LoopKitUI in Frameworks */,
+				A9BBD8252B2C992900072287 /* LoopCaregiverKit in Frameworks */,
+				A9ECCB322B2C73270057DEDF /* LoopKit in Frameworks */,
 				A9B033E4292306A90052AA9E /* CodeScanner in Frameworks */,
-				A9EEB92B29D4FCB3004EE7FB /* NightscoutKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9F8711B2A2EBE63007EC235 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9F871202A2EBE63007EC235 /* Intents.framework in Frameworks */,
+				A9ECCB3A2B2C73640057DEDF /* LoopKit in Frameworks */,
+				A9BBD8292B2C993500072287 /* LoopCaregiverKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A92AB6BE2A3151E900977536 /* Extensions */ = {
+		A92256362B2F972F0024EA56 /* Diagnostics */ = {
 			isa = PBXGroup;
 			children = (
-				A9D3FF232A6C3C54000C891D /* HKUnit.swift */,
-				A92AB6C02A3151E900977536 /* NewGlucoseSample+Presentable.swift */,
+				B63A43D62B2549BA004CFEAA /* BuildDetails.swift */,
+				A9ECCB292B286DB50057DEDF /* UserDefaults+Extensions.swift */,
 			);
-			path = Extensions;
+			path = Diagnostics;
 			sourceTree = "<group>";
 		};
 		A930C6C32A922127004BB459 /* ZommableScrollView */ = {
@@ -263,6 +382,7 @@
 			isa = PBXGroup;
 			children = (
 				A9346F852AC9820500C15F70 /* OverrideViewModelTests.swift */,
+				A9DCD2F02BCD2C2C00AA258A /* OverrideViewDelegateMock.swift */,
 			);
 			path = LoopCaregiverTests;
 			sourceTree = "<group>";
@@ -270,7 +390,10 @@
 		A947025A2932286200FB3E59 /* NightscoutChart */ = {
 			isa = PBXGroup;
 			children = (
-				A9EC199D292101550022D39F /* NightscoutChartView.swift */,
+				A9EC199D292101550022D39F /* NightscoutChartScrollView.swift */,
+				A9DCD2EE2BC9378000AA258A /* AnnotationColorStyle.swift */,
+				A9DCD2EC2BC9375600AA258A /* FilledCircle.swift */,
+				A9DCD2EA2BC9373100AA258A /* GraphItem.swift */,
 				A9744DEB293405A4000A3D6A /* PinchZoom.swift */,
 				A9EC19A0292128D60022D39F /* TreatmentAnnotationView.swift */,
 				A930C6C32A922127004BB459 /* ZommableScrollView */,
@@ -322,30 +445,13 @@
 			path = IOBChart;
 			sourceTree = "<group>";
 		};
-		A95223602A7ED9940070FE13 /* RemoteCommands */ = {
+		A94EFDBC2B44DBD80048E4F3 /* SettingsView */ = {
 			isa = PBXGroup;
 			children = (
-				A95223652A7EDA9B0070FE13 /* Action.swift */,
-				A95223742A7EDE660070FE13 /* AutobolusAction.swift */,
-				A95223622A7EDA9B0070FE13 /* BolusAction.swift */,
-				A95223642A7EDA9B0070FE13 /* CarbAction.swift */,
-				A95223752A7EDE660070FE13 /* ClosedLoopAction.swift */,
-				A95223612A7EDA9B0070FE13 /* OverrideAction.swift */,
-				A95223632A7EDA9B0070FE13 /* OverrideCancelAction.swift */,
-				A952236B2A7EDC790070FE13 /* RemoteCommand.swift */,
-				A952236C2A7EDC790070FE13 /* RemoteCommandStatus.swift */,
+				A94EFDBD2B44DBD80048E4F3 /* SettingsView.swift */,
+				A94EFDBE2B44DBD80048E4F3 /* SettingsViewModel.swift */,
 			);
-			path = RemoteCommands;
-			sourceTree = "<group>";
-		};
-		A952236F2A7EDCA50070FE13 /* RemoteCommands */ = {
-			isa = PBXGroup;
-			children = (
-				A9A362D52A80EEED007B017C /* V1 */,
-				A95223702A7EDCB90070FE13 /* NSRemoteCommandPayload.swift */,
-				A95223712A7EDCB90070FE13 /* RemoteCommandStatus+Extras.swift */,
-			);
-			path = RemoteCommands;
+			path = SettingsView;
 			sourceTree = "<group>";
 		};
 		A95F50BE292A602E00079AAF /* Frameworks */ = {
@@ -357,6 +463,10 @@
 				A95F50C9292A65E400079AAF /* LoopUI.framework */,
 				A95F50C6292A657F00079AAF /* LoopKitUI.framework */,
 				A95F50BF292A602F00079AAF /* LoopKit.framework */,
+				A99F2F372A29350C00F7DE2D /* WidgetKit.framework */,
+				A99F2F392A29350D00F7DE2D /* SwiftUI.framework */,
+				A9F8711F2A2EBE63007EC235 /* Intents.framework */,
+				A9F8712A2A2EBE64007EC235 /* IntentsUI.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -375,23 +485,6 @@
 			path = Charts;
 			sourceTree = "<group>";
 		};
-		A96929302926E2B700B8BF43 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				A95223602A7ED9940070FE13 /* RemoteCommands */,
-				A92AB6BE2A3151E900977536 /* Extensions */,
-				A96929902927FFBA00B8BF43 /* AccountService.swift */,
-				A969293D2926EFEC00B8BF43 /* AccountServiceManager.swift */,
-				A90DB9532930F879004B58D3 /* CaregiverSettings.swift */,
-				A9972773292FC0B0006C8C74 /* CoreDataAccountService.swift */,
-				A969296E2927FEBB00B8BF43 /* LoopCaregiver.xcdatamodeld */,
-				A969293C2926EFEC00B8BF43 /* Looper.swift */,
-				A9972775292FCE6A006C8C74 /* LooperService.swift */,
-				A9972777292FEA06006C8C74 /* RemoteDataServiceManager.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
 		A96929332926E57C00B8BF43 /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -400,7 +493,6 @@
 				A9744DE72933B0DC000A3D6A /* Extensions */,
 				A969296A29279DCB00B8BF43 /* Home */,
 				A969296929279D9F00B8BF43 /* Settings */,
-				A97B729A293E839E0053DBB8 /* Utils */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -410,6 +502,7 @@
 			children = (
 				A969293E2926EFEC00B8BF43 /* LooperSetupView.swift */,
 				A9B033E729231DCE0052AA9E /* SettingsView.swift */,
+				A9ECCB272B286CD90057DEDF /* AppExpirationAlerter.swift */,
 			);
 			path = Settings;
 			sourceTree = "<group>";
@@ -417,9 +510,12 @@
 		A969296A29279DCB00B8BF43 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				A9ECCB2B2B29C5270057DEDF /* AppExpirationAlerterRepresentable.swift */,
 				A969293A2926ECF500B8BF43 /* BottomBarView.swift */,
 				A9EC197D291FEF940022D39F /* ContentView.swift */,
 				A99DC86429992DD20058EBA5 /* DisclaimerView.swift */,
+				A9BAEE6D2B5C555F002C7C46 /* FirstRunView.swift */,
+				A9BAEE6B2B5C552D002C7C46 /* HomeView.swift */,
 				A96929342926E5CE00B8BF43 /* HUDView.swift */,
 			);
 			path = Home;
@@ -428,9 +524,9 @@
 		A969296B29279DD700B8BF43 /* Actions */ = {
 			isa = PBXGroup;
 			children = (
+				A970838D2B4D54A10053D633 /* OverrideView */,
 				A9EC19AC2921A19C0022D39F /* BolusInputView.swift */,
 				A9EC19AA292156D80022D39F /* CarbInputView.swift */,
-				A9EC19A8292144040022D39F /* OverrideView.swift */,
 				A9BD7B542AD17AAD00E73973 /* PresetEditView.swift */,
 				A9BD7B522AD0D8D300E73973 /* OverrideInsulinNeedsView.swift */,
 				A98348902AD206CD0034ABB2 /* PresetRowView.swift */,
@@ -438,11 +534,22 @@
 			path = Actions;
 			sourceTree = "<group>";
 		};
+		A970838D2B4D54A10053D633 /* OverrideView */ = {
+			isa = PBXGroup;
+			children = (
+				A9EC19A8292144040022D39F /* OverrideView.swift */,
+				A97083922B4D55A00053D633 /* OverridePickerRowModel.swift */,
+				A97083902B4D55130053D633 /* OverrideViewModel.swift */,
+				A970838E2B4D54CC0053D633 /* CustomDatePicker.swift */,
+			);
+			path = OverrideView;
+			sourceTree = "<group>";
+		};
 		A9744DE72933B0DC000A3D6A /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
 				A9D3FF212A6C3B99000C891D /* Color.swift */,
-				A9744DE92933B0FE000A3D6A /* View.swift */,
+				A90DAD792B2C76CA0092A3D9 /* Looper+SwiftUI.swift */,
 				A9C89ED62A7074EE00EFD938 /* UIColor.swift */,
 				A9C89ED82A70758000EFD938 /* UIColor+HIG.swift */,
 				A9A62C7E2AD1BD4C004CD316 /* TimeInterval.swift */,
@@ -450,67 +557,76 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		A97B729A293E839E0053DBB8 /* Utils */ = {
+		A99F2F3B2A29350D00F7DE2D /* LoopCaregiverWidgetExtension */ = {
 			isa = PBXGroup;
 			children = (
-				A97B729B293E83BA0053DBB8 /* LocalizationUtils.swift */,
-				A99DC866299984430058EBA5 /* Date+Utils.swift */,
+				A99F2F4F2A29396900F7DE2D /* LoopCaregiverWidgetExtension.entitlements */,
+				A99F2F3C2A29350D00F7DE2D /* LoopCaregiverWidgetBundle.swift */,
+				A99F2F7C2A2AA16200F7DE2D /* LoopCaregiverWidgetView.swift */,
+				A99F2F792A2AA0DD00F7DE2D /* SimpleEntry.swift */,
+				A99F2F7E2A2AA19E00F7DE2D /* TimelineProvider.swift */,
+				A99F2F402A29350D00F7DE2D /* LoopCaregiverWidget.swift */,
+				A99F2F422A29350D00F7DE2D /* LoopCaregiverWidget.intentdefinition */,
+				A99F2F432A29350F00F7DE2D /* Assets.xcassets */,
+				A99F2F452A29350F00F7DE2D /* Info.plist */,
 			);
-			path = Utils;
+			path = LoopCaregiverWidgetExtension;
 			sourceTree = "<group>";
 		};
-		A98D4CB0292C38D100EFF5C6 /* Nightscout */ = {
+		A9CFDD1C2AEBFF1200FA701B /* LoopCaregiverWatchApp */ = {
 			isa = PBXGroup;
 			children = (
-				A952236F2A7EDCA50070FE13 /* RemoteCommands */,
-				A9C4D7E42969A68800D3875F /* Extensions */,
-				A98D4CB1292C394800EFF5C6 /* NightscoutCredentials.swift */,
-				A98D4CAE292C26CD00EFF5C6 /* NightscoutCredentialService.swift */,
-				A96929922929908100B8BF43 /* NightscoutDataSource.swift */,
-				A9B033E529230FF20052AA9E /* OTPManager.swift */,
+				A9CFDD452AEC055500FA701B /* Info.plist */,
+				A9CFDD432AEC042500FA701B /* LoopCaregiverWatchApp.entitlements */,
+				A9CFDD1D2AEBFF1200FA701B /* LoopCaregiverWatchApp.swift */,
+				A9EC5C7D2B10E9FC00AA32EF /* UserDefaults+Watch.swift */,
+				A9CFDD1F2AEBFF1200FA701B /* ContentView.swift */,
+				A94EFDBC2B44DBD80048E4F3 /* SettingsView */,
+				A933EFA12B30FF460094C32C /* HomeView.swift */,
+				A9CFDD212AEBFF1400FA701B /* Assets.xcassets */,
+				A9CFDD232AEBFF1400FA701B /* Preview Content */,
 			);
-			path = Nightscout;
+			path = LoopCaregiverWatchApp;
 			sourceTree = "<group>";
 		};
-		A9A362D52A80EEED007B017C /* V1 */ = {
+		A9CFDD232AEBFF1400FA701B /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				A9A362D92A80EEFE007B017C /* BolusRemoteNotification.swift */,
-				A9A362D72A80EEFE007B017C /* CarbRemoteNotification.swift */,
-				A9A362D62A80EEFE007B017C /* OverrideCancelRemoteNotification.swift */,
-				A9A362D82A80EEFE007B017C /* OverrideRemoteNotification.swift */,
-				A9A362DA2A80EEFE007B017C /* RemoteNotification.swift */,
+				A9CFDD242AEBFF1400FA701B /* Preview Assets.xcassets */,
 			);
-			path = V1;
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		A9C4D7E42969A68800D3875F /* Extensions */ = {
+		A9CFDD342AEC02D600FA701B /* LoopCaregiverWatchAppExtension */ = {
 			isa = PBXGroup;
 			children = (
-				A9C4D7F12969B78A00D3875F /* BolusNightscoutTreatment.swift */,
-				A9C4D7F32969B79E00D3875F /* CarbCorrectionNightscoutTreatment.swift */,
-				A9C4D7E72969A6A900D3875F /* COBStatus.swift */,
-				A9C4D7EB2969B69600D3875F /* GlucoseEntry.swift */,
-				A9C4D7E52969A69F00D3875F /* IOBStatus.swift */,
-				A9C4D7ED2969B70000D3875F /* NightscoutTreatment.swift */,
-				A9A45D6F2A77B5480013CD5B /* NoteNightscoutTreatment.swift */,
-				A98FF28D29A11CC8005739A5 /* OverrideTreatment.swift */,
-				A9C4D7E92969A6B600D3875F /* ProfileSet.swift */,
-				A9C4D7EF2969B76A00D3875F /* TempBasalNightscoutTreatment.swift */,
-				A9C4D7F52969B92800D3875F /* TemporaryScheduleOverride.swift */,
-				A9A362E02A80F071007B017C /* NoteNightscoutTreatment+RemoteCommand.swift */,
+				A9CFDD442AEC043300FA701B /* LoopCaregiverWatchAppExtension.entitlements */,
+				A9CFDD352AEC02D600FA701B /* LoopCaregiverWatchAppExtension.swift */,
+				A933EFA32B3106970094C32C /* TimelineProvider.swift */,
+				A933EFA82B3116F20094C32C /* SimpleEntry.swift */,
+				A9CFDD372AEC02D600FA701B /* ConfigurationAppIntent.swift */,
+				A9CFDD392AEC02D700FA701B /* Assets.xcassets */,
+				A9CFDD3B2AEC02D700FA701B /* Info.plist */,
 			);
-			path = Extensions;
+			path = LoopCaregiverWatchAppExtension;
 			sourceTree = "<group>";
 		};
 		A9EC196F291FEF940022D39F = {
 			isa = PBXGroup;
 			children = (
+				A9C666392ADAD41700D3B5CA /* README.md */,
 				A9688E2D299730C500CDD4D6 /* LICENSE */,
+				A99BC5182AE56468006D52EF /* fastlane */,
+				A99BC5172AE5645B006D52EF /* .github */,
 				A9EC197A291FEF940022D39F /* LoopCaregiver */,
 				A9346F842AC9820500C15F70 /* LoopCaregiverTests */,
+				A9F871212A2EBE63007EC235 /* LoopCaregiverIntentExtension */,
+				A99F2F3B2A29350D00F7DE2D /* LoopCaregiverWidgetExtension */,
+				A9CFDD1C2AEBFF1200FA701B /* LoopCaregiverWatchApp */,
+				A9CFDD342AEC02D600FA701B /* LoopCaregiverWatchAppExtension */,
 				A9EC1979291FEF940022D39F /* Products */,
 				A95F50BE292A602E00079AAF /* Frameworks */,
+				A9BBD8232B2C991D00072287 /* LoopCaregiverKit */,
 				3D717B1629799E8A00B31B03 /* LoopCaregiver.xcconfig */,
 			);
 			sourceTree = "<group>";
@@ -520,6 +636,10 @@
 			children = (
 				A9EC1978291FEF940022D39F /* LoopCaregiver.app */,
 				A9346F832AC9820500C15F70 /* LoopCaregiverTests.xctest */,
+				A99F2F362A29350C00F7DE2D /* LoopCaregiverWidgetExtension.appex */,
+				A9F8711E2A2EBE63007EC235 /* LoopCaregiverIntentExtension.appex */,
+				A9CFDD1B2AEBFF1200FA701B /* LoopCaregiverWatchApp.app */,
+				A9CFDD312AEC02D600FA701B /* LoopCaregiverWatchAppExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -527,9 +647,11 @@
 		A9EC197A291FEF940022D39F /* LoopCaregiver */ = {
 			isa = PBXGroup;
 			children = (
+				B63A43E12B2603ED004CFEAA /* Scripts */,
+				B63A43DF2B2603DD004CFEAA /* BuildDetails.plist */,
+				A99F2F502A29398F00F7DE2D /* LoopCaregiver.entitlements */,
 				3DF4E0882980736C00E91E16 /* Info.plist */,
-				A96929302926E2B700B8BF43 /* Models */,
-				A98D4CB0292C38D100EFF5C6 /* Nightscout */,
+				A92256362B2F972F0024EA56 /* Diagnostics */,
 				A96929332926E57C00B8BF43 /* Views */,
 				A9EC197B291FEF940022D39F /* LoopCaregiverApp.swift */,
 				A9EC197F291FEF950022D39F /* Assets.xcassets */,
@@ -544,6 +666,16 @@
 				A9EC1982291FEF950022D39F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A9F871212A2EBE63007EC235 /* LoopCaregiverIntentExtension */ = {
+			isa = PBXGroup;
+			children = (
+				A9F871642A2FF498007EC235 /* LoopCaregiverIntentExtension.entitlements */,
+				A9F871222A2EBE63007EC235 /* IntentHandler.swift */,
+				A9F871242A2EBE63007EC235 /* Info.plist */,
+			);
+			path = LoopCaregiverIntentExtension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -567,6 +699,71 @@
 			productReference = A9346F832AC9820500C15F70 /* LoopCaregiverTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		A99F2F352A29350C00F7DE2D /* LoopCaregiverWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A99F2F4E2A29350F00F7DE2D /* Build configuration list for PBXNativeTarget "LoopCaregiverWidgetExtension" */;
+			buildPhases = (
+				A99F2F322A29350C00F7DE2D /* Sources */,
+				A99F2F332A29350C00F7DE2D /* Frameworks */,
+				A99F2F342A29350C00F7DE2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoopCaregiverWidgetExtension;
+			packageProductDependencies = (
+				A9ECCB352B2C73520057DEDF /* LoopKit */,
+				A9ECCB372B2C73520057DEDF /* LoopKitUI */,
+				A9BBD8262B2C992F00072287 /* LoopCaregiverKit */,
+			);
+			productName = LoopCaregiverWidgetExtension;
+			productReference = A99F2F362A29350C00F7DE2D /* LoopCaregiverWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		A9CFDD1A2AEBFF1200FA701B /* LoopCaregiverWatchApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9CFDD2C2AEBFF1400FA701B /* Build configuration list for PBXNativeTarget "LoopCaregiverWatchApp" */;
+			buildPhases = (
+				A9CFDD172AEBFF1200FA701B /* Sources */,
+				A9CFDD182AEBFF1200FA701B /* Frameworks */,
+				A9CFDD192AEBFF1200FA701B /* Resources */,
+				A9CFDD422AEC02D700FA701B /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9CFDD3D2AEC02D700FA701B /* PBXTargetDependency */,
+			);
+			name = LoopCaregiverWatchApp;
+			packageProductDependencies = (
+				A9480DFE2B2CA5430044C972 /* LoopKit */,
+				A92256342B2F952F0024EA56 /* LoopCaregiverKit */,
+			);
+			productName = "LoopCaregiverWatchApp Watch App";
+			productReference = A9CFDD1B2AEBFF1200FA701B /* LoopCaregiverWatchApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A9CFDD302AEC02D600FA701B /* LoopCaregiverWatchAppExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9CFDD3F2AEC02D700FA701B /* Build configuration list for PBXNativeTarget "LoopCaregiverWatchAppExtension" */;
+			buildPhases = (
+				A9CFDD2D2AEC02D600FA701B /* Sources */,
+				A9CFDD2E2AEC02D600FA701B /* Frameworks */,
+				A9CFDD2F2AEC02D600FA701B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoopCaregiverWatchAppExtension;
+			packageProductDependencies = (
+				A95CCCED2B2F90DF000BFC25 /* LoopCaregiverKit */,
+			);
+			productName = LoopCaregiverWatchAppExtensionExtension;
+			productReference = A9CFDD312AEC02D600FA701B /* LoopCaregiverWatchAppExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		A9EC1977291FEF940022D39F /* LoopCaregiver */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A9EC1986291FEF950022D39F /* Build configuration list for PBXNativeTarget "LoopCaregiver" */;
@@ -575,21 +772,49 @@
 				A9EC1975291FEF940022D39F /* Frameworks */,
 				A9EC1976291FEF940022D39F /* Resources */,
 				A95F50C2292A602F00079AAF /* Embed Frameworks */,
+				A9E14D3D2A2BA5A600BDB93D /* Embed Foundation Extensions */,
+				A9CFDD282AEBFF1400FA701B /* Embed Watch Content */,
+				B63A43DC2B254B4E004CFEAA /* Capture Build Details */,
+				A9DBE0092BDF11B3001DF5C7 /* SwiftLint */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9E14D392A2BA59C00BDB93D /* PBXTargetDependency */,
+				A9F871372A2EBE64007EC235 /* PBXTargetDependency */,
+				A9CFDD272AEBFF1400FA701B /* PBXTargetDependency */,
+			);
+			name = LoopCaregiver;
+			packageProductDependencies = (
+				A9B033E3292306A90052AA9E /* CodeScanner */,
+				A9ECCB312B2C73270057DEDF /* LoopKit */,
+				A9ECCB332B2C73270057DEDF /* LoopKitUI */,
+				A9BBD8242B2C992900072287 /* LoopCaregiverKit */,
+			);
+			productName = LoopCaregiver;
+			productReference = A9EC1978291FEF940022D39F /* LoopCaregiver.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A9F8711D2A2EBE63007EC235 /* LoopCaregiverIntentExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9F8713C2A2EBE64007EC235 /* Build configuration list for PBXNativeTarget "LoopCaregiverIntentExtension" */;
+			buildPhases = (
+				A9F8711A2A2EBE63007EC235 /* Sources */,
+				A9F8711B2A2EBE63007EC235 /* Frameworks */,
+				A9F8711C2A2EBE63007EC235 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = LoopCaregiver;
+			name = LoopCaregiverIntentExtension;
 			packageProductDependencies = (
-				A9EC19A3292141980022D39F /* OneTimePassword */,
-				A9B033E3292306A90052AA9E /* CodeScanner */,
-				A9EEB92A29D4FCB3004EE7FB /* NightscoutKit */,
-				A9CA102E2A7FF6A700EE114C /* SwiftCharts */,
+				A9ECCB392B2C73640057DEDF /* LoopKit */,
+				A9BBD8282B2C993500072287 /* LoopCaregiverKit */,
 			);
-			productName = LoopCaregiver;
-			productReference = A9EC1978291FEF940022D39F /* LoopCaregiver.app */;
-			productType = "com.apple.product-type.application";
+			productName = MyIntentExtension;
+			productReference = A9F8711E2A2EBE63007EC235 /* LoopCaregiverIntentExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -599,14 +824,26 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1500;
-				LastUpgradeCheck = 1410;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					A9346F822AC9820500C15F70 = {
 						CreatedOnToolsVersion = 15.0;
 						TestTargetID = A9EC1977291FEF940022D39F;
 					};
+					A99F2F352A29350C00F7DE2D = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					A9CFDD1A2AEBFF1200FA701B = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					A9CFDD302AEC02D600FA701B = {
+						CreatedOnToolsVersion = 15.0;
+					};
 					A9EC1977291FEF940022D39F = {
 						CreatedOnToolsVersion = 14.1;
+					};
+					A9F8711D2A2EBE63007EC235 = {
+						CreatedOnToolsVersion = 14.3;
 					};
 				};
 			};
@@ -620,10 +857,8 @@
 			);
 			mainGroup = A9EC196F291FEF940022D39F;
 			packageReferences = (
-				A9EC19A2292141980022D39F /* XCRemoteSwiftPackageReference "OneTimePassword" */,
 				A9B033E2292306A90052AA9E /* XCRemoteSwiftPackageReference "CodeScanner" */,
-				A9EEB92929D4FCB3004EE7FB /* XCRemoteSwiftPackageReference "NightscoutKit" */,
-				A9CA102D2A7FF6A700EE114C /* XCRemoteSwiftPackageReference "SwiftCharts" */,
+				A9ECCB302B2C73270057DEDF /* XCRemoteSwiftPackageReference "LoopKit" */,
 			);
 			productRefGroup = A9EC1979291FEF940022D39F /* Products */;
 			projectDirPath = "";
@@ -631,6 +866,10 @@
 			targets = (
 				A9EC1977291FEF940022D39F /* LoopCaregiver */,
 				A9346F822AC9820500C15F70 /* LoopCaregiverTests */,
+				A99F2F352A29350C00F7DE2D /* LoopCaregiverWidgetExtension */,
+				A9F8711D2A2EBE63007EC235 /* LoopCaregiverIntentExtension */,
+				A9CFDD1A2AEBFF1200FA701B /* LoopCaregiverWatchApp */,
+				A9CFDD302AEC02D600FA701B /* LoopCaregiverWatchAppExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -643,16 +882,91 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A99F2F342A29350C00F7DE2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A99F2F442A29350F00F7DE2D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9CFDD192AEBFF1200FA701B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9CFDD252AEBFF1400FA701B /* Preview Assets.xcassets in Resources */,
+				A9CFDD222AEBFF1400FA701B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9CFDD2F2AEC02D600FA701B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9CFDD3A2AEC02D700FA701B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A9EC1976291FEF940022D39F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A9EC1983291FEF950022D39F /* Preview Assets.xcassets in Resources */,
+				B63A43E02B2603DD004CFEAA /* BuildDetails.plist in Resources */,
 				A9EC1980291FEF950022D39F /* Assets.xcassets in Resources */,
+				B63A43E22B2603ED004CFEAA /* Scripts in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9F8711C2A2EBE63007EC235 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A9DBE0092BDF11B3001DF5C7 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd \"${SRCROOT}\"/..\npwd\nif [[ \"$(uname -m)\" == arm64 ]]; then\n    export PATH=\"/opt/homebrew/bin:$PATH\"\nfi\n\nif which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+		B63A43DC2B254B4E004CFEAA /* Capture Build Details */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Capture Build Details";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Scripts/capture-build-details.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A9346F7F2AC9820500C15F70 /* Sources */ = {
@@ -660,6 +974,45 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9346F862AC9820500C15F70 /* OverrideViewModelTests.swift in Sources */,
+				A9DCD2F12BCD2C2C00AA258A /* OverrideViewDelegateMock.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A99F2F322A29350C00F7DE2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A99F2F7B2A2AA0E100F7DE2D /* SimpleEntry.swift in Sources */,
+				A99F2F3D2A29350D00F7DE2D /* LoopCaregiverWidgetBundle.swift in Sources */,
+				A99F2F7D2A2AA16200F7DE2D /* LoopCaregiverWidgetView.swift in Sources */,
+				A99F2F412A29350D00F7DE2D /* LoopCaregiverWidget.swift in Sources */,
+				A99F2F7F2A2AA19E00F7DE2D /* TimelineProvider.swift in Sources */,
+				A99F2F462A29350F00F7DE2D /* LoopCaregiverWidget.intentdefinition in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9CFDD172AEBFF1200FA701B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9EC5C7E2B10E9FC00AA32EF /* UserDefaults+Watch.swift in Sources */,
+				A9CFDD202AEBFF1200FA701B /* ContentView.swift in Sources */,
+				A94EFDBF2B44DBD80048E4F3 /* SettingsView.swift in Sources */,
+				A933EFA22B30FF460094C32C /* HomeView.swift in Sources */,
+				A94EFDC02B44DBD80048E4F3 /* SettingsViewModel.swift in Sources */,
+				A9CFDD1E2AEBFF1200FA701B /* LoopCaregiverWatchApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9CFDD2D2AEC02D600FA701B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A933EFA92B3116F20094C32C /* SimpleEntry.swift in Sources */,
+				A933EFA42B3106970094C32C /* TimelineProvider.swift in Sources */,
+				A9EC5C7F2B10E9FC00AA32EF /* UserDefaults+Watch.swift in Sources */,
+				A9CFDD362AEC02D600FA701B /* LoopCaregiverWatchAppExtension.swift in Sources */,
+				A9CFDD382AEC02D600FA701B /* ConfigurationAppIntent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -667,83 +1020,61 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A970838F2B4D54CC0053D633 /* CustomDatePicker.swift in Sources */,
+				A9BAEE6E2B5C555F002C7C46 /* FirstRunView.swift in Sources */,
+				A9DCD2ED2BC9375600AA258A /* FilledCircle.swift in Sources */,
 				A9BD0DE02A89515700988E2C /* ZoomableScrollView.swift in Sources */,
 				A9A62C7F2AD1BD4C004CD316 /* TimeInterval.swift in Sources */,
-				A97B729C293E83BA0053DBB8 /* LocalizationUtils.swift in Sources */,
+				A97083912B4D55130053D633 /* OverrideViewModel.swift in Sources */,
 				A99F2F772A2A98AE00F7DE2D /* BolusNightscoutTreatment+Charts.swift in Sources */,
-				A9C4D7EC2969B69600D3875F /* GlucoseEntry.swift in Sources */,
-				A95223772A7EDE660070FE13 /* ClosedLoopAction.swift in Sources */,
-				A90DB9542930F879004B58D3 /* CaregiverSettings.swift in Sources */,
-				A9A362DC2A80EEFE007B017C /* CarbRemoteNotification.swift in Sources */,
-				A9972776292FCE6A006C8C74 /* LooperService.swift in Sources */,
-				A9C4D7F62969B92800D3875F /* TemporaryScheduleOverride.swift in Sources */,
-				A96929932929908100B8BF43 /* NightscoutDataSource.swift in Sources */,
-				A95223762A7EDE660070FE13 /* AutobolusAction.swift in Sources */,
 				A94702702932C21E00FB3E59 /* IOBChartView.swift in Sources */,
 				A96929352926E5CE00B8BF43 /* HUDView.swift in Sources */,
-				A9D3FF242A6C3C54000C891D /* HKUnit.swift in Sources */,
-				A9A362DF2A80EEFE007B017C /* RemoteNotification.swift in Sources */,
 				A9EC19A9292144040022D39F /* OverrideView.swift in Sources */,
-				A9C4D7EA2969A6B600D3875F /* ProfileSet.swift in Sources */,
-				A952236D2A7EDC790070FE13 /* RemoteCommand.swift in Sources */,
-				A952236A2A7EDA9B0070FE13 /* Action.swift in Sources */,
-				A98D4CAF292C26CD00EFF5C6 /* NightscoutCredentialService.swift in Sources */,
-				A95223692A7EDA9B0070FE13 /* CarbAction.swift in Sources */,
-				A9A362DD2A80EEFE007B017C /* OverrideRemoteNotification.swift in Sources */,
+				A97083932B4D55A00053D633 /* OverridePickerRowModel.swift in Sources */,
 				A94702692932429F00FB3E59 /* DoseChartView.swift in Sources */,
-				A98D4CB2292C394800EFF5C6 /* NightscoutCredentials.swift in Sources */,
+				A9DCD2EB2BC9373100AA258A /* GraphItem.swift in Sources */,
+				A9ECCB2A2B286DB50057DEDF /* UserDefaults+Extensions.swift in Sources */,
+				A9DCD2EF2BC9378000AA258A /* AnnotationColorStyle.swift in Sources */,
 				A95223792A7FA0890070FE13 /* RemoteCommand+Charts.swift in Sources */,
-				A9C4D7E62969A69F00D3875F /* IOBStatus.swift in Sources */,
 				A98348912AD206CD0034ABB2 /* PresetRowView.swift in Sources */,
 				A96929412926EFEC00B8BF43 /* LooperSetupView.swift in Sources */,
-				A95223732A7EDCB90070FE13 /* RemoteCommandStatus+Extras.swift in Sources */,
 				A98F5E112930F18A00A03580 /* NewGlucoseSample+Charts.swift in Sources */,
-				A98FF28E29A11CC8005739A5 /* OverrideTreatment.swift in Sources */,
 				A9EC197E291FEF940022D39F /* ContentView.swift in Sources */,
-				A9744DEA2933B0FE000A3D6A /* View.swift in Sources */,
-				A9972778292FEA06006C8C74 /* RemoteDataServiceManager.swift in Sources */,
+				A9BAEE6C2B5C552D002C7C46 /* HomeView.swift in Sources */,
 				A947026C293254B500FB3E59 /* COBChartView.swift in Sources */,
 				A9D3FF222A6C3B99000C891D /* Color.swift in Sources */,
 				A9BD7B552AD17AAD00E73973 /* PresetEditView.swift in Sources */,
-				A95223682A7EDA9B0070FE13 /* OverrideCancelAction.swift in Sources */,
 				A930C6C22A8F99AA004BB459 /* CGRect.swift in Sources */,
-				A9EC199E292101550022D39F /* NightscoutChartView.swift in Sources */,
-				A969293F2926EFEC00B8BF43 /* Looper.swift in Sources */,
+				A9EC199E292101550022D39F /* NightscoutChartScrollView.swift in Sources */,
 				A969293B2926ECF500B8BF43 /* BottomBarView.swift in Sources */,
-				A96929912927FFBA00B8BF43 /* AccountService.swift in Sources */,
 				A9EC19AB292156D80022D39F /* CarbInputView.swift in Sources */,
-				A9A45D702A77B5480013CD5B /* NoteNightscoutTreatment.swift in Sources */,
-				A9C4D7F22969B78A00D3875F /* BolusNightscoutTreatment.swift in Sources */,
+				A9ECCB2C2B29C5270057DEDF /* AppExpirationAlerterRepresentable.swift in Sources */,
 				A9B033E829231DCE0052AA9E /* SettingsView.swift in Sources */,
-				A95223662A7EDA9B0070FE13 /* OverrideAction.swift in Sources */,
-				A9C4D7F42969B79E00D3875F /* CarbCorrectionNightscoutTreatment.swift in Sources */,
 				A9744DEC293405A4000A3D6A /* PinchZoom.swift in Sources */,
 				A99F2F742A2A986600F7DE2D /* CarbCorrectionNightscoutTreatment+Charts.swift in Sources */,
-				A9B033E629230FF20052AA9E /* OTPManager.swift in Sources */,
-				A95223672A7EDA9B0070FE13 /* BolusAction.swift in Sources */,
-				A9C4D7EE2969B70000D3875F /* NightscoutTreatment.swift in Sources */,
-				A95223722A7EDCB90070FE13 /* NSRemoteCommandPayload.swift in Sources */,
+				B63A43D72B2549BA004CFEAA /* BuildDetails.swift in Sources */,
+				A90DAD7A2B2C76CA0092A3D9 /* Looper+SwiftUI.swift in Sources */,
 				A95F50C5292A648600079AAF /* PredictedGlucoseChartView.swift in Sources */,
 				A947025D2932299600FB3E59 /* ChartsListView.swift in Sources */,
-				A92AB6C12A3151E900977536 /* NewGlucoseSample+Presentable.swift in Sources */,
 				A9C89ED92A70758000EFD938 /* UIColor+HIG.swift in Sources */,
 				A930C6C52A9364BD004BB459 /* DemoView.swift in Sources */,
-				A952236E2A7EDC790070FE13 /* RemoteCommandStatus.swift in Sources */,
 				A9C89ED72A7074EE00EFD938 /* UIColor.swift in Sources */,
-				A9A362DB2A80EEFE007B017C /* OverrideCancelRemoteNotification.swift in Sources */,
-				A9A362DE2A80EEFE007B017C /* BolusRemoteNotification.swift in Sources */,
 				A9EC197C291FEF940022D39F /* LoopCaregiverApp.swift in Sources */,
 				A9EC19A1292128D60022D39F /* TreatmentAnnotationView.swift in Sources */,
-				A9C4D7F02969B76A00D3875F /* TempBasalNightscoutTreatment.swift in Sources */,
-				A9A362E12A80F071007B017C /* NoteNightscoutTreatment+RemoteCommand.swift in Sources */,
-				A99DC867299984430058EBA5 /* Date+Utils.swift in Sources */,
-				A96929702927FEBB00B8BF43 /* LoopCaregiver.xcdatamodeld in Sources */,
 				A99DC86529992DD20058EBA5 /* DisclaimerView.swift in Sources */,
 				A9BD7B532AD0D8D300E73973 /* OverrideInsulinNeedsView.swift in Sources */,
-				A9972774292FC0B0006C8C74 /* CoreDataAccountService.swift in Sources */,
-				A96929402926EFEC00B8BF43 /* AccountServiceManager.swift in Sources */,
-				A9C4D7E82969A6A900D3875F /* COBStatus.swift in Sources */,
+				A9ECCB282B286CD90057DEDF /* AppExpirationAlerter.swift in Sources */,
+				A99F2F472A29350F00F7DE2D /* LoopCaregiverWidget.intentdefinition in Sources */,
 				A9EC19AD2921A19C0022D39F /* BolusInputView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9F8711A2A2EBE63007EC235 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9F871232A2EBE63007EC235 /* IntentHandler.swift in Sources */,
+				A9F8713F2A2EBE79007EC235 /* LoopCaregiverWidget.intentdefinition in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -755,6 +1086,26 @@
 			target = A9EC1977291FEF940022D39F /* LoopCaregiver */;
 			targetProxy = A9346F872AC9820500C15F70 /* PBXContainerItemProxy */;
 		};
+		A9CFDD272AEBFF1400FA701B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9CFDD1A2AEBFF1200FA701B /* LoopCaregiverWatchApp */;
+			targetProxy = A9CFDD262AEBFF1400FA701B /* PBXContainerItemProxy */;
+		};
+		A9CFDD3D2AEC02D700FA701B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9CFDD302AEC02D600FA701B /* LoopCaregiverWatchAppExtension */;
+			targetProxy = A9CFDD3C2AEC02D700FA701B /* PBXContainerItemProxy */;
+		};
+		A9E14D392A2BA59C00BDB93D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A99F2F352A29350C00F7DE2D /* LoopCaregiverWidgetExtension */;
+			targetProxy = A9E14D382A2BA59C00BDB93D /* PBXContainerItemProxy */;
+		};
+		A9F871372A2EBE64007EC235 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9F8711D2A2EBE63007EC235 /* LoopCaregiverIntentExtension */;
+			targetProxy = A9F871362A2EBE64007EC235 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
@@ -763,15 +1114,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "$(LOOP_DEVELOPMENT_TEAM)";
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "--CAREGIVER-APP-BUNDLE-IDENTIFIER-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
@@ -781,25 +1131,207 @@
 			};
 			name = Debug;
 		};
-		A9346F8A2AC9820500C15F70 /* Release */ = {
+		A99F2F4C2A29350F00F7DE2D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = LoopCaregiverWidgetExtension/LoopCaregiverWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "$(LOOP_DEVELOPMENT_TEAM)";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LoopCaregiverWidgetExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = LoopCaregiverWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "${CAREGIVER_APP_BUNDLE_IDENTIFIER}.WidgetExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A99F2F4D2A29350F00F7DE2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = LoopCaregiverWidgetExtension/LoopCaregiverWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LoopCaregiverWidgetExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = LoopCaregiverWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "${CAREGIVER_APP_BUNDLE_IDENTIFIER}.WidgetExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A9CFDD2A2AEBFF1400FA701B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LoopCaregiverWatchApp/LoopCaregiverWatchApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LoopCaregiverWatchApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				INFOPLIST_FILE = LoopCaregiverWatchApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "$(MAIN_APP_DISPLAY_NAME)";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "${CAREGIVER_APP_BUNDLE_IDENTIFIER}";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "--CAREGIVER-APP-BUNDLE-IDENTIFIER-Tests";
+				PRODUCT_BUNDLE_IDENTIFIER = "${CAREGIVER_APP_BUNDLE_IDENTIFIER}.watchkitapp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoopCaregiver.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LoopCaregiver";
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		A9CFDD2B2AEBFF1400FA701B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LoopCaregiverWatchApp/LoopCaregiverWatchApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LoopCaregiverWatchApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LoopCaregiverWatchApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "$(MAIN_APP_DISPLAY_NAME)";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "${CAREGIVER_APP_BUNDLE_IDENTIFIER}";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "${CAREGIVER_APP_BUNDLE_IDENTIFIER}.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		A9CFDD402AEC02D700FA701B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = LoopCaregiverWatchAppExtension/LoopCaregiverWatchAppExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LoopCaregiverWatchAppExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "$(MAIN_APP_DISPLAY_NAME)";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "${CAREGIVER_APP_BUNDLE_IDENTIFIER}.watchkitapp.WidgetExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		A9CFDD412AEC02D700FA701B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = LoopCaregiverWatchAppExtension/LoopCaregiverWatchAppExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LoopCaregiverWatchAppExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "$(MAIN_APP_DISPLAY_NAME)";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "${CAREGIVER_APP_BUNDLE_IDENTIFIER}.watchkitapp.WidgetExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
 			};
 			name = Release;
 		};
@@ -808,6 +1340,8 @@
 			baseConfigurationReference = 3D717B1629799E8A00B31B03 /* LoopCaregiver.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				APP_GROUP_IDENTIFIER = "group.$(CAREGIVER_APP_BUNDLE_IDENTIFIER)Group";
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -838,6 +1372,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "$(LOOP_DEVELOPMENT_TEAM)";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -854,7 +1389,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "$(MAIN_APP_DISPLAY_NAME)";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MAIN_APP_DISPLAY_NAME = "$(MAIN_APP_DISPLAY_NAME)";
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -869,6 +1406,8 @@
 			baseConfigurationReference = 3D717B1629799E8A00B31B03 /* LoopCaregiver.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				APP_GROUP_IDENTIFIER = "group.$(CAREGIVER_APP_BUNDLE_IDENTIFIER)Group";
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -899,6 +1438,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "$(LOOP_DEVELOPMENT_TEAM)";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -909,7 +1449,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "$(MAIN_APP_DISPLAY_NAME)";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MAIN_APP_DISPLAY_NAME = "$(MAIN_APP_DISPLAY_NAME)";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -922,12 +1464,13 @@
 		A9EC1987291FEF950022D39F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LoopCaregiver/LoopCaregiver.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"LoopCaregiver/Preview Content\"";
-				DEVELOPMENT_TEAM = "$(LOOP_DEVELOPMENT_TEAM)";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = LoopCaregiver/Info.plist;
@@ -948,12 +1491,13 @@
 		A9EC1988291FEF950022D39F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LoopCaregiver/LoopCaregiver.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"LoopCaregiver/Preview Content\"";
-				DEVELOPMENT_TEAM = "$(LOOP_DEVELOPMENT_TEAM)";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = LoopCaregiver/Info.plist;
@@ -971,6 +1515,74 @@
 			};
 			name = Release;
 		};
+		A9F8713D2A2EBE64007EC235 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = LoopCaregiverIntentExtension/LoopCaregiverIntentExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LoopCaregiverIntentExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = LoopCaregiverIntentExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "${CAREGIVER_APP_BUNDLE_IDENTIFIER}.IntentExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A9F8713E2A2EBE64007EC235 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = LoopCaregiverIntentExtension/LoopCaregiverIntentExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LoopCaregiverIntentExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = LoopCaregiverIntentExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "${CAREGIVER_APP_BUNDLE_IDENTIFIER}.IntentExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A9FE41052ADC667900DD88E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				PRODUCT_NAME = LoopCaregiverTests;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -978,7 +1590,34 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A9346F892AC9820500C15F70 /* Debug */,
-				A9346F8A2AC9820500C15F70 /* Release */,
+				A9FE41052ADC667900DD88E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A99F2F4E2A29350F00F7DE2D /* Build configuration list for PBXNativeTarget "LoopCaregiverWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A99F2F4C2A29350F00F7DE2D /* Debug */,
+				A99F2F4D2A29350F00F7DE2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9CFDD2C2AEBFF1400FA701B /* Build configuration list for PBXNativeTarget "LoopCaregiverWatchApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9CFDD2A2AEBFF1400FA701B /* Debug */,
+				A9CFDD2B2AEBFF1400FA701B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9CFDD3F2AEC02D700FA701B /* Build configuration list for PBXNativeTarget "LoopCaregiverWatchAppExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9CFDD402AEC02D700FA701B /* Debug */,
+				A9CFDD412AEC02D700FA701B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1001,6 +1640,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		A9F8713C2A2EBE64007EC235 /* Build configuration list for PBXNativeTarget "LoopCaregiverIntentExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9F8713D2A2EBE64007EC235 /* Debug */,
+				A9F8713E2A2EBE64007EC235 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
@@ -1012,68 +1660,73 @@
 				minimumVersion = 2.0.0;
 			};
 		};
-		A9CA102D2A7FF6A700EE114C /* XCRemoteSwiftPackageReference "SwiftCharts" */ = {
+		A9ECCB302B2C73270057DEDF /* XCRemoteSwiftPackageReference "LoopKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/ivanschuetz/SwiftCharts";
+			repositoryURL = "https://github.com/LoopKit/LoopKit.git";
 			requirement = {
-				branch = master;
-				kind = branch;
-			};
-		};
-		A9EC19A2292141980022D39F /* XCRemoteSwiftPackageReference "OneTimePassword" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/mattrubin/OneTimePassword.git";
-			requirement = {
-				kind = revision;
-				revision = 8e4022f2852d77240d0a17482cbfe325354aac70;
-			};
-		};
-		A9EEB92929D4FCB3004EE7FB /* XCRemoteSwiftPackageReference "NightscoutKit" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/gestrich/NightscoutKit.git";
-			requirement = {
-				branch = "feature/2023-07/bg/remote-commands";
+				branch = dev;
 				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		A92256342B2F952F0024EA56 /* LoopCaregiverKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = LoopCaregiverKit;
+		};
+		A9480DFE2B2CA5430044C972 /* LoopKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A9ECCB302B2C73270057DEDF /* XCRemoteSwiftPackageReference "LoopKit" */;
+			productName = LoopKit;
+		};
+		A95CCCED2B2F90DF000BFC25 /* LoopCaregiverKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = LoopCaregiverKit;
+		};
 		A9B033E3292306A90052AA9E /* CodeScanner */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = A9B033E2292306A90052AA9E /* XCRemoteSwiftPackageReference "CodeScanner" */;
 			productName = CodeScanner;
 		};
-		A9CA102E2A7FF6A700EE114C /* SwiftCharts */ = {
+		A9BBD8242B2C992900072287 /* LoopCaregiverKit */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = A9CA102D2A7FF6A700EE114C /* XCRemoteSwiftPackageReference "SwiftCharts" */;
-			productName = SwiftCharts;
+			productName = LoopCaregiverKit;
 		};
-		A9EC19A3292141980022D39F /* OneTimePassword */ = {
+		A9BBD8262B2C992F00072287 /* LoopCaregiverKit */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = A9EC19A2292141980022D39F /* XCRemoteSwiftPackageReference "OneTimePassword" */;
-			productName = OneTimePassword;
+			productName = LoopCaregiverKit;
 		};
-		A9EEB92A29D4FCB3004EE7FB /* NightscoutKit */ = {
+		A9BBD8282B2C993500072287 /* LoopCaregiverKit */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = A9EEB92929D4FCB3004EE7FB /* XCRemoteSwiftPackageReference "NightscoutKit" */;
-			productName = NightscoutKit;
+			productName = LoopCaregiverKit;
+		};
+		A9ECCB312B2C73270057DEDF /* LoopKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A9ECCB302B2C73270057DEDF /* XCRemoteSwiftPackageReference "LoopKit" */;
+			productName = LoopKit;
+		};
+		A9ECCB332B2C73270057DEDF /* LoopKitUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A9ECCB302B2C73270057DEDF /* XCRemoteSwiftPackageReference "LoopKit" */;
+			productName = LoopKitUI;
+		};
+		A9ECCB352B2C73520057DEDF /* LoopKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A9ECCB302B2C73270057DEDF /* XCRemoteSwiftPackageReference "LoopKit" */;
+			productName = LoopKit;
+		};
+		A9ECCB372B2C73520057DEDF /* LoopKitUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A9ECCB302B2C73270057DEDF /* XCRemoteSwiftPackageReference "LoopKit" */;
+			productName = LoopKitUI;
+		};
+		A9ECCB392B2C73640057DEDF /* LoopKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A9ECCB302B2C73270057DEDF /* XCRemoteSwiftPackageReference "LoopKit" */;
+			productName = LoopKit;
 		};
 /* End XCSwiftPackageProductDependency section */
-
-/* Begin XCVersionGroup section */
-		A969296E2927FEBB00B8BF43 /* LoopCaregiver.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				A92AB6CE2A31D81200977536 /* LoopCaregiver 2.xcdatamodel */,
-				A969296F2927FEBB00B8BF43 /* LoopCaregiver.xcdatamodel */,
-			);
-			currentVersion = A92AB6CE2A31D81200977536 /* LoopCaregiver 2.xcdatamodel */;
-			path = LoopCaregiver.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = A9EC1970291FEF940022D39F /* Project object */;
 }
